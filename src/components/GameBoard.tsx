@@ -1,4 +1,3 @@
-
 import React, { useEffect, useRef } from 'react';
 import { GameState, Position } from '@/types/game';
 import { useDeviceDetection } from '@/hooks/use-device-detection';
@@ -26,6 +25,8 @@ const GameBoard: React.FC<GameBoardProps> = ({ gameState, cellSize }) => {
     borderRadius: '8px',
     boxShadow: '0 0 20px rgba(139, 92, 246, 0.3)',
     overflow: 'hidden',
+    width: `${gridSize.width * cellSize}px`,
+    height: `${gridSize.height * cellSize}px`,
   };
 
   // Apply shake effect when game over
