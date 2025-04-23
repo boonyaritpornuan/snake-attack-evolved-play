@@ -1,9 +1,8 @@
-
 import React, { useCallback, useEffect } from 'react';
 import { Direction } from '@/types/game';
 import { useDeviceDetection } from '@/hooks/use-device-detection';
 import { Button } from '@/components/ui/button';
-import { ArrowUp, ArrowDown, ArrowLeft, ArrowRight } from 'lucide-react';
+import { ArrowUp, ArrowDown, ArrowLeft, ArrowRight, Pause } from 'lucide-react';
 
 interface GameControlsProps {
   onDirectionChange: (direction: Direction) => void;
@@ -25,7 +24,6 @@ const GameControls: React.FC<GameControlsProps> = ({
   const { isMobile, isTablet } = useDeviceDetection();
   const isTouchDevice = isMobile || isTablet;
 
-  // Handle keyboard controls
   const handleKeyDown = useCallback(
     (e: KeyboardEvent) => {
       if (gameOver) return;
@@ -66,7 +64,6 @@ const GameControls: React.FC<GameControlsProps> = ({
     [onDirectionChange, onPause, onResume, onRestart, isPlaying, gameOver]
   );
 
-  // Set up keyboard event listeners
   useEffect(() => {
     window.addEventListener('keydown', handleKeyDown);
     return () => {
@@ -74,17 +71,14 @@ const GameControls: React.FC<GameControlsProps> = ({
     };
   }, [handleKeyDown]);
 
-  // Touch control handlers
   const handleDirectionClick = (direction: Direction) => {
     if (gameOver) return;
     onDirectionChange(direction);
   };
 
-  // Render touch controls for mobile/tablet
   if (isTouchDevice) {
     return (
       <div className="fixed bottom-4 left-0 right-0 flex flex-col items-center gap-2 z-10">
-        {/* Game control buttons */}
         <div className="flex flex-col items-center">
           <Button
             variant="outline"
@@ -95,7 +89,7 @@ const GameControls: React.FC<GameControlsProps> = ({
             <ArrowUp className="h-8 w-8" />
           </Button>
 
-          <div className="flex justify-center items-center gap-4 my-2">
+          <div className="flex justify-center items-center gap-8 my-2">
             <Button
               variant="outline"
               size="icon"
@@ -103,6 +97,15 @@ const GameControls: React.FC<GameControlsProps> = ({
               onClick={() => handleDirectionClick('LEFT')}
             >
               <ArrowLeft className="h-8 w-8" />
+            </Button>
+
+            <Button
+              variant="outline"
+              size="icon"
+              className="w-16 h-16 rounded-full bg-secondary/80 backdrop-blur-sm border-primary"
+              onClick={isPlaying ? onPause : onResume}
+            >
+              <Pause className="h-8 w-8" />
             </Button>
 
             <Button
@@ -125,15 +128,7 @@ const GameControls: React.FC<GameControlsProps> = ({
           </Button>
         </div>
 
-        {/* Game action buttons */}
         <div className="flex justify-center gap-4 mt-4">
-          <Button
-            variant="outline"
-            className="px-4 py-2 bg-secondary/80 backdrop-blur-sm"
-            onClick={isPlaying ? onPause : onResume}
-          >
-            {isPlaying ? 'Pause' : 'Resume'}
-          </Button>
           <Button
             variant="outline"
             className="px-4 py-2 bg-secondary/80 backdrop-blur-sm"
@@ -146,7 +141,6 @@ const GameControls: React.FC<GameControlsProps> = ({
     );
   }
 
-  // Render minimal controls for desktop
   return (
     <div className="flex justify-center gap-4 mt-4">
       <Button
