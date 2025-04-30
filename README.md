@@ -3,8 +3,8 @@
 <a href="https://ibb.co/rhmzk26"><img src="https://i.ibb.co/pTxM2jz/Leonardo-Phoenix-10-Ultradetailed-3-D-render-Cyberpunk-snake-ba-1.jpg" alt="Leonardo-Phoenix-10-Ultradetailed-3-D-render-Cyberpunk-snake-ba-1" border="0"></a>
 
 **Modern twist on classic snake game** - Built with pure JavaScript and HTML5 Canvas
+<a href="https://ibb.co/0R0j973L"><img src="https://i.ibb.co/0R0j973L/2025-04-30-100151.png" alt="2025-04-30-100151" border="0"></a>
 
-[url=https://ibb.co/0R0j973L][img]https://i.ibb.co/0R0j973L/2025-04-30-100151.png[/img][/url]
 [![License](https://img.shields.io/badge/License-ThemeForest%20Regular-blue?style=for-the-badge)](https://themeforest.net)
 
 ## 🚀 Features
