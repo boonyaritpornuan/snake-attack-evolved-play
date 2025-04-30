@@ -1,6 +1,6 @@
 # Snake Attack Evolved - HTML5 Canvas Game
 
-![Game Banner](https://via.placeholder.com/1200x400.png?text=Snake+Attack+Evolved+Banner)
+<a href="https://ibb.co/rhmzk26"><img src="https://i.ibb.co/pTxM2jz/Leonardo-Phoenix-10-Ultradetailed-3-D-render-Cyberpunk-snake-ba-1.jpg" alt="Leonardo-Phoenix-10-Ultradetailed-3-D-render-Cyberpunk-snake-ba-1" border="0"></a>
 
 **Modern twist on classic snake game** - Built with pure JavaScript and HTML5 Canvas
 
