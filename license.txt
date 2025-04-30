@@ -1,0 +1,64 @@
+============================================
+Snake Attack Evolved - License Agreement
+============================================
+
+This End User License Agreement ("EULA") is a legal agreement between you (either an individual or a single entity) and Mr.Boonyarit Pornuan for the software product identified above ("Software").
+
+1. GRANT OF LICENSE
+-------------------
+Subject to your compliance with this EULA, we grant you:
+- For REGULAR LICENSE ($17):
+  * Non-exclusive, worldwide right to use the Software in ONE (1) end product
+  * Allowed for personal/commercial projects (website, web app, mobile app)
+  * Client must purchase separate license for redistribution rights
+
+- For EXTENDED LICENSE ($850):
+  * Use in MULTIPLE end products
+  * Unlimited domains/subdomains
+  * SaaS/Subscription-based services
+  * Cannot redistribute source code
+
+2. RESTRICTIONS
+---------------
+- You MAY NOT:
+  * Resell, sublicense, or redistribute source code
+  * Use in "website builder" services (Wix, Squarespace, etc.)
+  * Create derivative works for resale
+  * Remove copyright notices
+  * Use in pornographic/political/religious content
+
+3. INTELLECTUAL PROPERTY
+------------------------
+- All copyrights remain property of Mr.Boonyarit Pornuan
+- You receive non-transferable usage rights only
+- Source code is licensed, not sold
+
+4. WARRANTY
+-----------
+THE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND. WE DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+
+5. TERMINATION
+--------------
+This agreement terminates automatically if you breach any terms. Upon termination, you must:
+- Cease all use of the Software
+- Delete all copies from your systems
+- Remove deployed instances within 30 days
+
+6. GOVERNING LAW
+----------------
+This agreement is governed by the laws of Thailand, without regard to conflict of laws principles.
+
+7. SUPPORT
+----------
+Support includes:
+- Bug fixes and technical assistance
+- Compatibility updates
+- Documentation clarification
+
+Excludes:
+- Custom feature development
+- Design modifications
+- Third-party integration support
+
+For support requests: boonyarit300931@gmail.com
+Full license terms available at: https://themeforest.net/licenses/standard
