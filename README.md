@@ -4,7 +4,7 @@
 
 **Modern twist on classic snake game** - Built with pure JavaScript and HTML5 Canvas
 
-[![Live Demo](https://img.shields.io/badge/Demo-Live%20Play-green?style=for-the-badge)](https://snake-attack-evolved-play.vercel.app/)
+[url=https://ibb.co/0R0j973L][img]https://i.ibb.co/0R0j973L/2025-04-30-100151.png[/img][/url]
 [![License](https://img.shields.io/badge/License-ThemeForest%20Regular-blue?style=for-the-badge)](https://themeforest.net)
 
 ## 🚀 Features
