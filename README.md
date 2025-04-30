@@ -1,73 +1,36 @@
-# Welcome to your Lovable project
+# Snake Attack Evolved - HTML5 Canvas Game
 
-## Project info
+![Game Banner](https://via.placeholder.com/1200x400.png?text=Snake+Attack+Evolved+Banner)
 
-**URL**: https://lovable.dev/projects/ae4d4d78-a624-4218-90a9-3971b07d58d9
+**Modern twist on classic snake game** - Built with pure JavaScript and HTML5 Canvas
 
-## How can I edit this code?
+[![Live Demo](https://img.shields.io/badge/Demo-Live%20Play-green?style=for-the-badge)](https://snake-attack-evolved-play.vercel.app/)
+[![License](https://img.shields.io/badge/License-ThemeForest%20Regular-blue?style=for-the-badge)](https://themeforest.net)
 
-There are several ways of editing your application.
+## 🚀 Features
 
-**Use Lovable**
+- � Pure JavaScript implementation (No dependencies)
+- 🎮 Addictive arcade-style gameplay
+- 📱 Fully responsive design
+- ⚡ Canvas-based smooth animations
+- 🔊 Sound effects & background music
+- ⚙️ Customizable game settings
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/ae4d4d78-a624-4218-90a9-3971b07d58d9) and start prompting.
+## 🛠️ Installation
 
-Changes made via Lovable will be committed automatically to this repo.
+### Basic Setup (For Non-Developers)
+1. Unzip downloaded files
+2. Upload entire folder to your web server
+3. Access `index.html` in browser
 
-**Use your preferred IDE**
+### Developer Setup
+```bash
+# Clone repository (if purchased from Git)
+git clone [your-repo-url]
+cd snake-attack-evolved
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+# Install live-server for development
+npm install -g live-server
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/ae4d4d78-a624-4218-90a9-3971b07d58d9) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+# Start local server
+live-server --port=3000
